@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["typescript", "node"],
+  "words": [
+    "halfwidth",
+    "hankaku",
+    "hojodoushi",
+    "joshi",
+    "nakaguro",
+    "proofdict",
+    "readibility",
+    "tari",
+    "textlint",
+    "textlintrc",
+    "zenkaku"
+  ],
+  "ignorePaths": ["dist", "node_modules"]
+}
