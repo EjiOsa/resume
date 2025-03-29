@@ -1,7 +1,7 @@
 # resume
 
 個人の職務経歴書を管理・公開するリポジトリです。  
-Markdown形式で記述し、GitHub Pagesでの公開を想定しています。
+Markdown形式で記述し、GitHub Pagesでの公開をしています。
 
 ## 📁 ディレクトリ構成
 
