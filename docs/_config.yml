@@ -1,0 +1,11 @@
+# docs/_config.yml
+title: Resume
+description: 職務経歴書サイト
+markdown: kramdown
+theme: null
+exclude:
+  - node_modules
+  - package.json
+  - yarn.lock
+  - .gitignore
+  - .textlintrc
