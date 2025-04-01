@@ -1,2 +1,5 @@
 node_modules
 .cache
+docs/_site
+docs/Gemfile.lock
+docs/Gemfile

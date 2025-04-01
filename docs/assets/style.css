@@ -1,0 +1,72 @@
+/* ==========================
+  全体共通スタイル
+  ========================== */
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+/* ==========================
+    サイドバー（sidebar）関連スタイル
+  ========================== */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-right: 1px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  nav a:hover,
+  nav a.active {
+    color: #007acc;
+  }
+
+/* ==========================
+    メインコンテンツ領域（main）関連スタイル
+  ========================== */
+  main {
+    margin-left: 240px; /* サイドバー分の余白 */
+    padding: 2rem;
+  }
+
+  main > div {
+    max-width: 960px;
+    margin: 0 auto; /* 中央寄せ */
+    line-height: 1.7;
+    font-size: 16px;
+  }
