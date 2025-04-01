@@ -1,3 +1,4 @@
+---
 layout: default
-
-# スキルセット
+title: スキルセット
+---

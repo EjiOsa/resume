@@ -1,9 +1,7 @@
 ---
 layout: default
-title: トップページ
+title: 職務経歴書
 ---
-
-# 職務経歴書
 
 ## 基本情報
 

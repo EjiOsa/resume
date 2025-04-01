@@ -1,9 +1,7 @@
 ---
 layout: default
-title: 職務経歴
+title: 経歴詳細
 ---
-
-# 経歴詳細
 
 ## 株式会社 SEVENRICH Accounting（SRA）（2022 年 4 月 − 現在）
 

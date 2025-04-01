@@ -18,12 +18,20 @@
       left: 0;
       bottom: 0;
       overflow-y: auto;
+      width: 200px;
+      background-color: #f5f5f5;
+      padding: 1rem;
     }
 
     main {
       margin-left: 200px;
       padding: 2rem;
       flex: 1;
+      max-width: 960px; /* 📌 ここが本文の最大幅 */
+      margin-right: auto;
+      /* 左サイドバー分 */
+      line-height: 1.7;
+      font-size: 16px;
     }
 
     a {
@@ -34,7 +42,9 @@
     a:hover {
       text-decoration: underline;
     }
+    /* Removed duplicate main selector */
   </style>
+
 </head>
 <body>
   {% include sidebar.html %}
