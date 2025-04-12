@@ -3,7 +3,6 @@
     "source.fixAll": "explicit"
   },
   "editor.formatOnSave": false,
-  "textlint.run": "onSave",
   "files.associations": {
     "*.md": "markdown"
   },
